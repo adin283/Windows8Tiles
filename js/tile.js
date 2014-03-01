@@ -33,7 +33,7 @@ function tileMove(wrap)
 			var top = "-150px";
 		} else {
 			// 如果移到了最后一个磁贴，移动到第一个磁贴
-			if (wrapInnerHeight == -parseInt(wrapInner.css("top")) + 150) {
+			if (wrapInnerHeight <= -parseInt(wrapInner.css("top")) + 150) {
 				var top = "0px";
 			// 移动一个磁贴
 			} else {
