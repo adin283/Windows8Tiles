@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+.wrap{width:300px;height:150px;overflow:hidden;float:left;}
+.wrapInner{position:relative;top:0px;}
+.tile{width:300px;height:150px;}
+.t1{background-image:url(../images/tile1.png);}
+.t2{background-image:url(../images/tile2.png);}
+.t3{background-image:url(../images/tile3.png);}
+.t4{background-image:url(../images/tile4.png);}
+.t5{background-image:url(../images/tile5.png);}
+.t6{background-image:url(../images/tile6.png);}
+.t7{background-image:url(../images/tile7.png);}
